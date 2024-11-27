@@ -2,7 +2,7 @@
 import React, { createContext, useContext, useState } from 'react';
 import themes from './themeConfig';
 const ThemeContext = createContext();
-
+//custom hook theme
 export const ThemeProvider = ({ children }) => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
